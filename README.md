@@ -9,8 +9,6 @@ Project settings : ICE Servers </br>
 <B> Game view to be visable in unity3D when navigating the webapp </B> </BR>
 ![layout](https://github.com/docchopper221/UnityRenderingStream/assets/13588442/38b7deea-0e56-4211-b4dd-70e212653421)
 
-
-
 ## Coturn Server
 open source Coturn server : </BR>
 https://github.com/coturn/coturn </BR>
@@ -19,10 +17,10 @@ guides to install : https://nsoft-s.com/en/mychatarticles/1283-how-to-install-tu
 2. Packages to install : </BR>![image](https://github.com/docchopper221/UnityRenderingStream/assets/13588442/40c5597f-9916-4605-a49d-e582545b93ee)
 3. place the corturn files into : "Installed drive\cygwin64\home\User"
 4. run cygwin terminal navigate to coturn, run `./configure`
-5. `make`
-6. `make install`
+5. run `make`
+6. run `make install`
 7. place the turnserver.conf into "Installed driver\cygwin64\usr\local\etc"
-8. `turnserver`
+8. run `turnserver`
 ### test server running
 https://webrtc.github.io/samples/src/content/peerconnection/trickle-ice/ </BR>
 Turn URI: turn:127.0.0.1

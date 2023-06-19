@@ -13,7 +13,7 @@ Project settings : ICE Servers </br>
 open source Coturn server : https://github.com/coturn/coturn </BR>
 guides to install : https://nsoft-s.com/en/mychatarticles/1283-how-to-install-turn-server-for-windows.html </BR>
 1. install cygwin : https://www.cygwin.com/
-2. Packages to install : </BR> ![WebApp Page](https://github.com/Tribby-221/Prototype/assets/13588442/3889cbe4-c645-40a4-b5a8-5b01182cf459)
+2. Packages to install : </BR> ![cygwin-x86_8XQ5fbgLKB](https://github.com/Tribby-221/Prototype/assets/13588442/da9581a8-78bb-46fc-8822-2fc464e5e0ff)
 3. place the corturn files into : "Installed drive\cygwin64\home\User"
 4. run cygwin terminal navigate to coturn, run `./configure`
 5. run `make`

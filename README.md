@@ -33,12 +33,4 @@ turn user and password within turnserver.conf
 5. navigate to reciver sample
 ### Things to take note
 UnityRenderingStream\WebApp\client\public\js </BR>
-URL : is stated as in ## WebApp
-1. Navigate to WebApp folder with command terminal
-2. `npm install` or ('npm i -f' if faced with dependencies issues)
-3. `npm run build`
-4. `npm run start` or `npm start`
-5. navigate to reciver sample
-### Things to take note
-UnityRenderingStream\WebApp\client\public\js </BR>
 URL : is stated as https://webrtc.github.io/samples/src/content/peerconnection/trickle-ice/

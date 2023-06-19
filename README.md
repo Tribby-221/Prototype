@@ -36,5 +36,5 @@ in UnityRenderingStream\WebApp\client\public\js\config.js </BR>
 URL : is stated as shown in https://webrtc.github.io/samples/src/content/peerconnection/trickle-ice/ (stun:IP_ADDRESS:Port)
 
 ## Recorded Video File Path
-C:\Users\User\Desktop\Unity3D\RenderStream\Record (if not found) </BR>
-C:\Users\User\Documents\RockVR\Video
+C:\Users\User\Desktop\Unity3D\RenderStream\Record </BR>
+C:\Users\User\Documents\RockVR\Video (if not found from the path above)

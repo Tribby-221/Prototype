@@ -10,8 +10,7 @@ Project settings : ICE Servers </br>
 ![layout](https://github.com/docchopper221/UnityRenderingStream/assets/13588442/38b7deea-0e56-4211-b4dd-70e212653421)
 
 ## Coturn Server
-open source Coturn server : </BR>
-https://github.com/coturn/coturn </BR>
+open source Coturn server : https://github.com/coturn/coturn </BR>
 guides to install : https://nsoft-s.com/en/mychatarticles/1283-how-to-install-turn-server-for-windows.html </BR>
 1. install cygwin : https://www.cygwin.com/
 2. Packages to install : </BR>![image](https://github.com/docchopper221/UnityRenderingStream/assets/13588442/40c5597f-9916-4605-a49d-e582545b93ee)

@@ -2,6 +2,7 @@
 <html>
 
 <head>
+  <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="../css/main.css" />
@@ -10,7 +11,6 @@
 </head>
 
 <body>
-
   <div id="container">
     <h1>Receiver Sample</h1>
 
@@ -32,11 +32,29 @@
       <span>Lock Cursor to Player:</span>
       <input type="checkbox" id="lockMouseCheck" autocomplete="off" />
     </div>
+
+    <div>
+      <form id="tableForm">
+        <select class="selectpicker" data-style="btn-info" name="selectpicker" id="selector">
+            <optgroup label="Recorded">
+                <option name="table1" value="0">video 1</option>
+                <option name="table2" value="1">video 2</option>
+                <option name="table3" value="2">video 3</option>
+            </optgroup>
+        </select>
+        <button type="submit" id="submit" >Submit</button>
+    </form>
+    </div>
+
+    <div id="Vidbox">
+      <video src="" controls id="myVideo" ></video>
+    </div>
+
     <p>
       For more information about sample, see
         <a href="https://docs.unity3d.com/Packages/com.unity.renderstreaming@3.1/manual/sample-broadcast.html">Broadcast sample</a> document page.
     </p>
-
+    
     <div id="message"></div>
 
     <section>
@@ -45,12 +63,44 @@
     </section>
   </div>
 
+  <script>
+              document.querySelector('button').addEventListener('click', (e) => {
+                  e.preventDefault();
+                  const video = document.querySelector('#selector').value;
+                  fetch('http://localhost:3000/', {
+                      method: 'POST',
+                      mode:"cors",
+                      headers: {
+                          Authorization: 'Bearer abcdxyz',
+                          'Content-Type': 'application/json',
+                      },
+                      body: JSON.stringify({
+                          video,
+                      }),
+                  })
+                      .then((res) => {
+                          return res;
+                      })
+                      .then((data) => console.log(data));
+
+                  setTimeout(500);
+                  ReloadVideo();
+              });
+              
+              function ReloadVideo(){
+                const path = "http://localhost:3000/video";
+                const player = document.getElementById("myVideo");
+                player.pause();
+                player.setAttribute('src', path);
+                player.load();
+                player.play();
+              }
+  </script>
   <script type="text/javascript" src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
   <script src="https://unpkg.com/event-target@latest/min.js"></script>
   <script src="https://unpkg.com/resize-observer-polyfill@1.5.0/dist/ResizeObserver.global.js"></script>
   <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
   <script type="module" src="js/main.js"></script>
-
-</body>
+  </body>
 
 </html>

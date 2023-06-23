@@ -844,7 +844,7 @@ MonoBehaviour:
   captureGUI: 1
   mode: 0
   customPath: 1
-  customPathFolder: C:\Users\User\Desktop\Unity3D\RenderStream\Record
+  customPathFolder: C:\Users\User\Desktop\GitClones\UnityRenderingStream\Record
   streamingAddress: 
   interPupillaryDistance: 0.0635
   offlineRender: 0
@@ -1096,7 +1096,7 @@ MonoBehaviour:
   captureGUI: 1
   mode: 0
   customPath: 1
-  customPathFolder: C:\Users\User\Desktop\Unity3D\RenderStream\Record
+  customPathFolder: C:\Users\User\Desktop\GitClones\UnityRenderingStream\Record
   streamingAddress: 
   interPupillaryDistance: 0.0635
   offlineRender: 0
@@ -1695,7 +1695,7 @@ MonoBehaviour:
   captureGUI: 1
   mode: 0
   customPath: 1
-  customPathFolder: C:\Users\User\Desktop\Unity3D\RenderStream\Record
+  customPathFolder: C:\Users\User\Desktop\GitClones\UnityRenderingStream\Record
   streamingAddress: 
   interPupillaryDistance: 0.0635
   offlineRender: 0

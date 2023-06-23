@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "connect": "^3.7.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6",
+    "superagent": "^8.0.9"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "unityrenderingstream",
+  "description": "Unity3D into webapp with coturn ICEserver\r <B>(prototype)</B>\r ## Unity3D\r Version 2022.3.1f1\r ### Things to take note\r Project settings : ICE Servers </br>\r ![ProjectSettings](https://github.com/docchopper221/UnityRenderingStream/assets/13588442/318247c3-314c-4fe4-990d-c57f7f2ea3b9)\r <B> Game view to be visable in unity3D when navigating the webapp </B> </BR>\r ![layout](https://github.com/docchopper221/UnityRenderingStream/assets/13588442/38b7deea-0e56-4211-b4dd-70e212653421)",
+  "version": "1.0.0",
+  "main": "Server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

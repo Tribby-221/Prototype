@@ -26,6 +26,7 @@ Turn URI: turn:127.0.0.1
 turn user and password within turnserver.conf
 
 ## WebApp
+run 'node ./server.js' on Webbapp folder
 1. Navigate to WebApp folder with command terminal
 2. `npm install` or ('npm i -f' if faced with dependencies issues)
 3. `npm run build`

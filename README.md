@@ -39,3 +39,8 @@ URL : is stated as shown in https://webrtc.github.io/samples/src/content/peercon
 ## Recorded Video File Path
 C:\Users\User\Desktop\Unity3D\RenderStream\Record </BR>
 C:\Users\User\Documents\RockVR\Video (if not found from the path above)
+
+##(For offline) virtual lan
+1. Install HyperV (https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v#enable-hyper-v-with-cmd-and-dism)
+2. launch HyperV manager => Virtual switch manager => create new virtual network switch (private)
+3. cmd 'ipconfig /all' should show up the virtual ethernet.

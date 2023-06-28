@@ -14,17 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   automaticStreaming: 0
   signalingSettings:
-    rid: 0
+    rid: 4795909826849538054
   references:
     version: 2
     RefIds:
-    - rid: 0
+    - rid: 4795909826849538054
       type: {class: WebSocketSignalingSettings, ns: Unity.RenderStreaming, asm: Unity.RenderStreaming}
       data:
         m_url: ws://127.0.0.1
-        m_iceServers:
-        - m_urls:
-          - turn:127.0.0.1:19302
-          m_username: turnuser
-          m_credentialType: 0
-          m_credential: turn1234
+        m_iceServers: []

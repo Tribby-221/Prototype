@@ -7,6 +7,6 @@ export async function getServerConfig() {
 export function getRTCConfiguration() {
   let config = {};
   config.sdpSemantics = 'unified-plan';
-  config.iceServers = [{ urls: ['stun:127.0.0.1:19302'] , }];
+  config.iceServers = [ ];
   return config;
 }
